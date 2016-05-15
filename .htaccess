@@ -1,0 +1,8 @@
+php_flag display_errors 1
+php_value error_reporting 30719
+
+AuthUserFile /resources/.htpasswd
+AuthName "Please Log In"
+AuthType Basic
+
+DirectoryIndex index.php

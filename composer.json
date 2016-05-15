@@ -1,0 +1,13 @@
+{
+    "name": "vendor/bio-meal",
+    "description": "Description of project BioMeal.",
+    "authors": [
+        {
+            "name": "School",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "dev-master"
+    }
+}
