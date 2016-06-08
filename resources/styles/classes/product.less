@@ -1,0 +1,39 @@
+
+.group article {
+    //width: 100%;
+    //float: left;
+    
+    &:after {
+        display: block;
+        content: ' ';
+        clear: both;
+    }
+    
+    margin: 20px 0;
+    border-top: 1px solid #f0f0f0;
+    padding: 20px 0;
+}
+
+
+article .image {
+    width: 100px;
+    height: 70px;
+    background-size: contain;
+    background-position: center;
+    float: left;
+}
+
+article .info {
+    float: left;
+    width: 400px;
+    
+    header {
+        font-weight: bold;
+        
+    }
+    
+    p {
+        font-size: 12px;
+        color: #999;
+    }
+}

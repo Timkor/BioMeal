@@ -1,15 +1,56 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : May 15, 2016, 8:52:04 PM
-    Author     : School
-*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+@import '../../resources/fonts/font-awesome/less/font-awesome.less';
+
+// Utilities:
+@import 'utils/normalize.less';
+
+// Components:
+@import 'components/logo.less';
+@import 'components/slogan.less';
+@import 'components/menu.less';
+@import 'components/order.less';
+@import 'components/sidenav.less';
+@import 'components/header.less';
 
 
-body {
-    color: white;
+
+// Classes:
+@import 'classes/box.less';
+@import 'classes/container.less';
+@import 'classes/grid.less';
+@import 'classes/group.less';
+@import 'classes/product.less';
+@import 'classes/sidebar.less';
+
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ededed;
+}
+
+a {
+    color: #1b95e0;
+    text-decoration: none;
+}
+
+
+#caption {
+    
+    z-index: 1;
+    
+}
+
+#caption > header {
+    background-color: #80C74A;
+    height: 120px;
+    padding: 20px 0;
+}
+
+#sidebar nav a {
+    display: block;
+    text-decoration: none;
+}
